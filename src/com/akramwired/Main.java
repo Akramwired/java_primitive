@@ -39,5 +39,11 @@ public class Main {
         int myTotal = (myMinIntValue / 2);
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue /2);
+
+        byte randomByte = 64;
+        short randomShort = 8889;
+        int randomInt = 88863246;
+        long randomLongTotal = 50000L + 10L * (randomByte + randomShort + randomInt);
+        System.out.println(randomLongTotal);
     }
 }
